@@ -65,3 +65,21 @@ section {
 footer {
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .header-text {
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
